@@ -1,0 +1,26 @@
+#stage {
+  background-image: url('../img/stage-01-bg.png');
+  background-size: cover;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 90%;
+  color: #fff;
+  }
+
+.navbar, .navbar-default , .navbar-fixed-top {
+  background-color: none;
+}
+
+
+.vertical-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#content-dark {
+  background-color: #e35f3e;
+  color: #101334; 
+}
