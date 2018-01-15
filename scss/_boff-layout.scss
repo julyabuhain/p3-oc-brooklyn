@@ -1,3 +1,14 @@
+.card{
+  border: none;
+}
+
+footer a {
+  font-size: 14px;
+}
+
+footer li {
+  list-style: none;}
+
 #stage {
   background-image: url('../img/stage-01-bg.png');
   background-size: cover;
@@ -22,5 +33,5 @@
 
 #content-dark {
   background-color: #e35f3e;
-  color: #101334; 
+  color: #101334;
 }

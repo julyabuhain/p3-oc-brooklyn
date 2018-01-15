@@ -6353,6 +6353,15 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
+.card {
+  border: none; }
+
+footer a {
+  font-size: 14px; }
+
+footer li {
+  list-style: none; }
+
 #stage {
   background-image: url("../img/stage-01-bg.png");
   background-size: cover;
