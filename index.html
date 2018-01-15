@@ -9,39 +9,56 @@
   </head>
   <body>
     <!-- The overlay -->
-  <div id="myNav" class="overlay">
 
-    <!-- Button to close the overlay navigation -->
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; </a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+<img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+Bootstrap
+</a>
+            <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar9">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar9">
+                <ul class="navbar-nav ml-auto">
 
-    <!-- Overlay content -->
-    <div class="overlay-content">
-      <a href="#">About</a>
-      <a href="#">Home</a>
-      <a href="#">Films</a>
-      <a href="#">Partnerships</a>
-      <a href="#">Contact</a>
-    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Films
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Call Me By Your Name</a>
+          <a class="dropdown-item" href="#">Get Out</a>
+          <a class="dropdown-item" href="#">LadyBird</a>
+          <a class="dropdown-item" href="#">Dunkirk</a>
+          <a class="dropdown-item" href="#">Babydriver</a>
+          <a class="dropdown-item" href="#">The Killing of the Sacred Dear</a>
+          <a class="dropdown-item" href="#">Mother</a>
+          <a class="dropdown-item" href="#">Spider-Man: Homecoming</a>
+          <a class="dropdown-item" href="#">Coco</a>
+        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
 
-  </div>
-
-  <section id="stage" class="container-fluid">
-  <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="col-md-9">
-    <img src="img/boof.png" alt="logo">
-      </div>
-      <div class="col-md-3 text-right ">
-    <div class="navlink"><span onclick="openNav()">&#9776;</span></div>
-      </div>
-  </div>
-</div>
-
+                    <li class="nav-item">
+                      <span class="nav-link">  <a href="#">f</a> <a href="#">t</a> <a href="#">i</a> </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
       <div class="container">
           <div class="row">
-                  <div class="col-md-6 text-left pt-5">
-                      <h6 class="lead-subtitle">August 5 to 8</h2>
+            <div class="col-md-2"></div>
+                  <div class="col-md-8 p-5 align-middle">
                       <h2>The Ultimate Long Weekend with Brooklyn Outdoor Film Festival</h2>
                       <p>Join us from 6 PM to 12 MN for 30 different films from homegrown Brooklyn directors. Our venue offers a breath taking view of the Brooklyn bridge, free drinks, 30 award winning directors and the best kind of company.
                       What are you waiting for? Book your weekend with us now! </p>
@@ -49,18 +66,51 @@
                   </div>
               </div>
           </div>
+
+          <section id="home-film preview">
+            <div class="container">
+              <div class="row">
+                <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Card</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
       </div>
-  </section>
+      <div class="card " style="width: 20rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      </div></div>
+      <div class="row">
+        <div class="col-md-2"></div>
+              <div class="col-md-8 p-5 align-middle text-center">
+          <a href="#" class="btn btn-primary">View More Films</a>
+      </div>
+      </div>
+
+          </section>
+
 
 <section id="home-pre-reg">
   <div class="container">
     <div class="row">
       <div class="col-md-6">Image</div>
       <div class="col-md-6 p-3">
-          <h6 class="lead-subtitle">August 5 to 8</h2>
-        <h1>Something Something</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-        <p>Illo perferendis atque, dolorum quam et! Ipsam sint veritatis quidem, aperiam saepe. sajdkasjd</p></div>
+        <p class="lead">The latest and greatest film locally made directors. Brooklyn natives giving you </p>
     </div>
   </div>
 
@@ -75,52 +125,12 @@
     </div>
 
 
-    <section id="home-film preview">
-      <div class="container">
-        <div class="row ">
-          <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Card</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div class="card " style="width: 20rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="..." alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
-<div class="row text-center p-5">
-    <a href="#" class="btn btn-primary">View More Films</a>
-</div>
 
-    </section>
     <!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  <!-- Navigation -->
-    <script>
-      function openNav() {
-          document.getElementById("myNav").style.width = "100%";
-      }
 
-      function closeNav() {
-          document.getElementById("myNav").style.width = "0%";
-      }
 </script>
   </body>
 </html>
