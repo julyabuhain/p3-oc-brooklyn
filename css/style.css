@@ -4,6 +4,7 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Quicksand");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6353,8 +6354,15 @@ a.text-dark:focus, a.text-dark:hover {
 .invisible {
   visibility: hidden !important; }
 
-.card {
-  border: none; }
+body {
+  width: 100%;
+  overflow-x: hidden; }
+
+.container {
+  width: 100%; }
+
+#btn-custom {
+  border-radius: 50px; }
 
 footer a {
   font-size: 14px; }
@@ -6363,21 +6371,38 @@ footer li {
   list-style: none; }
 
 #stage {
-  background-image: url("../img/stage-01-bg.png");
+  background-image: url("../img/stage-01-bg.jpg");
   background-size: cover;
   background-color: #000;
   background-repeat: no-repeat;
   background-position: bottom center;
-  height: 90%;
-  color: #fff; }
+  margin-bottom: 60px;
+  color: #fff;
+  height: 90vh; }
 
 .navbar, .navbar-default, .navbar-fixed-top {
-  background-color: none; }
+  color: #fff; }
+
+#stage-2 {
+  background-image: url("../img/stock.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center; }
+
+.vertical-caption, h2 {
+  text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.3); }
+
+#home-lead {
+  height: 500px;
+  text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.3); }
+
+.card {
+  border: none;
+  width: 18em; }
 
 .vertical-caption {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  padding-top: 120px;
+  padding-bottom: 120px; }
 
 #content-dark {
   background-color: #e35f3e;
@@ -6385,79 +6410,10 @@ footer li {
 
 html, body {
   height: 100%;
-  background-color: #fff; }
+  background-color: #fff;
+  font-family: "Inconsolata", monospace; }
 
-.navlink {
-  color: #fff;
-  font-size: 1.5rem;
-  text-align: right; }
-
-/* The Overlay (background) */
-.overlay {
-  /* Height & width depends on how you want to reveal the overlay (see JS below) */
-  height: 100%;
-  width: 0;
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  left: 0;
-  top: 0;
-  background-color: black;
-  /* Black fallback color */
-  background-color: black;
-  /* Black w/opacity */
-  overflow-x: hidden;
-  /* Disable horizontal scroll */
-  transition: 0.5s;
-  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */ }
-
-/* Position the content inside the overlay */
-.overlay-content {
-  position: relative;
-  top: 25%;
-  /* 25% from the top */
-  width: 100%;
-  /* 100% width */
-  text-align: center;
-  /* Centered text/links */
-  margin-top: 30px;
-  /* 30px top margin to avoid conflict with the close button on smaller screens */ }
-
-/* The navigation links inside the overlay */
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  /* Display block instead of inline */
-  transition: 0.3s;
-  /* Transition effects on hover (color) */ }
-
-/* When you mouse over the navigation links, change their color */
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1; }
-
-/* Position the close button (top right corner) */
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px; }
-
-/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-@media screen and (max-height: 450px) {
-  .overlay a {
-    font-size: 20px; }
-
-  .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px; } }
-@media screen and (min-width: 991px) {
-  .feature-content {
-    display: flex;
-    align-items: center; } }
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Quicksand", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
