@@ -8,6 +8,9 @@ body {
 #btn-custom {
   border-radius: 50px; }
 
+footer {
+  margin-top: 30px;
+}
 footer a {
   font-size: 14px;
 }
@@ -21,9 +24,8 @@ footer li {
   background-color: #000;
   background-repeat: no-repeat;
   background-position: bottom center;
-  margin-bottom: 60px;
   color: #fff;
-  height: 90vh;
+  padding-bottom: 60px;
   }
 
 .navbar, .navbar-default , .navbar-fixed-top, {
@@ -31,12 +33,37 @@ color: #fff;
 
 }
 
+
+#home-pre-reg{
+  background-color: #f7f4ed;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.bg-pale {
+  background-color:#dcebee;
+  color: #000;
+}
+
 #stage-2 {
   background-image: url('../img/stock.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
+
+  height: 500px;
+  clear: auto;
+  margin-bottom: 0px;
   }
+
+  #stage-3 {
+    background-image: url('../img/stage-02-bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    clear: auto;
+    COLOR: #FFF;
+    }
 
 .vertical-caption, h2 {
     text-shadow: 1px 3px 2px rgba(0,0,0,0.3);
@@ -44,11 +71,22 @@ color: #fff;
 
 #home-lead {
   height: 500px;
-    text-shadow: 1px 3px 2px rgba(0,0,0,0.3);
+    padding-bottom: 50px;
 }
 .card{
   border: none;
   width: 18em;
+  text-align: center;
+  background-color: none;
+}
+
+#card-film {
+  margin: 20px;
+  background: none;
+}
+
+.card-block, .card-text, .card {
+    background: none;
 }
 
 .vertical-caption {

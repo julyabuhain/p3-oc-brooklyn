@@ -6,10 +6,23 @@
 
 html, body {
   height: 100%;
-  background-color: $primary;
+  background-color: #fbfdfd;
   font-family: $type-paragraph;}
 
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $type-heading;
+}
+
+
+h2 {
+  color: #e37479;
+}
+
+h3{
+  color: #e35f3e;
+}
+
+h4 {
+  color: #fff;
 }
