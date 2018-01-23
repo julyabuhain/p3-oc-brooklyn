@@ -6411,6 +6411,33 @@ footer li {
   clear: auto;
   COLOR: #FFF; }
 
+#stage-4 {
+  background-image: url("../img/stage-03-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  clear: auto;
+  color: #fff;
+  margin-bottom: 0px; }
+
+#stage-5 {
+  background-image: url("../img/stage-04-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  clear: auto;
+  color: #fff;
+  margin-bottom: 0px; }
+
+#stage-6 {
+  background-image: url("../img/stage-05-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  clear: auto;
+  color: #fff;
+  margin-bottom: 0px; }
+
 .vertical-caption, h2 {
   text-shadow: 1px 3px 2px rgba(0, 0, 0, 0.3); }
 
